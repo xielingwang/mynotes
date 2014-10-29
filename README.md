@@ -1,14 +1,10 @@
-# Motivation
-Here's the PHP function library which included functions or classes I written or used in my passed projects. Just for memory. And god knows they will just help you at some time.
+# 动机
+这个PHP函数库包括一些过去项目中我写的或使用过的方法和类. 
+初衷是当个笔记本用.
+但谁知道它不会在啥时候帮助到你呢?
+建议,错误发现或讨论请提交Issue.
 
-Push the issue to let me know at any time if you have got some suggestions, error discoveries or discussions.
+# 结构
+这个代码库会包含`master`和`ohmygod`两个分支. 我会记录新的代码到`ohmygod`里, 然后一星期或一个月整理一次并merge到`master`.
 
-# Structure
-
-This repository includes 2 branches: master and ohmygod.
-
-Yeah, I will push new codes into `ohmygod` at any time. 
-
-But I will tidy it and merge to `master`, maybe once a week or once a month.
-
-# Updates
+# 更新记录
