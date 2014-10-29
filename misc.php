@@ -8,12 +8,12 @@ function password($password, $salt=null) {
 
 // uuid
 function uuid() {
-  return strtoupper( md5(uniqid(mt_rand(), true)) );
+  return md5(uniqid(mt_rand(), true));
 }
 
 // uuid for windows format
 function win_uuid() {
-  $charid = strtoupper( md5(uniqid(mt_rand(), true)) );
+  $charid = md5(uniqid(mt_rand(), true));
 
   return '{' . implode('-', array(
     substr($charid, 0, 8),
