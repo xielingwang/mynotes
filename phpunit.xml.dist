@@ -1,0 +1,8 @@
+<phpunit bootstrap="unittest/bootstrap.php" backupGlobals="false" colors="true">
+    <testsuites>
+        <!-- Default test suite to run all tests -->
+        <testsuite>
+            <file>unittest/testPHPHooks.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
